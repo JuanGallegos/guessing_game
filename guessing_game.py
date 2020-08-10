@@ -37,7 +37,6 @@ def main():
     scores = []
     message(" Welcome to the Number Guessing Game!")
     scores.append(start_game())
-    print(f"The current High Score is {min(scores)}")
 
     while True:
 
